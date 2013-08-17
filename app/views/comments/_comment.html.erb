@@ -1,0 +1,5 @@
+<%= form_for [comment.diary, comment] do |f| %>
+<%= f.label :comment , 'any comment?' %>
+<%= f.text_area :comment %>
+<%= f.submit %>
+<% end %>
